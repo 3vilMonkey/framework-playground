@@ -1,0 +1,9 @@
+services:
+  framework-playground:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    container_name: framework-playground-devcontainer
+    volumes:
+      - ../..:/workspaces:cached
+    command: sleep infinity
