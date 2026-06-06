@@ -1,0 +1,22 @@
+{
+  "name": "framework-playground",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+		"nx": "nx",
+		"graph": "nx graph",
+		"build": "nx run-many -t build",
+		"lint": "nx run-many -t lint",
+		"test": "nx run-many -t test",
+		"typecheck": "nx run-many -t typecheck"
+	},
+  "devDependencies": {
+    "@nx/eslint": "^22.7.5",
+    "@nx/js": "^22.7.5",
+    "@nx/rspack": "^22.7.5",
+    "@nx/web": "^22.7.5",
+    "@nx/workspace": "^22.7.5",
+    "nx": "22.7.5",
+    "typescript": "^6.0.3"
+  }
+}

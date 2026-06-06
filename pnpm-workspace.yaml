@@ -1,0 +1,8 @@
+minimumReleaseAge: 4320
+trustPolicy: no-downgrade
+blockExoticSubdeps: true
+
+packages:
+  - apps/*
+  - libs/*
+  - packages/*
