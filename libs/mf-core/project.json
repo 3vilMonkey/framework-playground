@@ -1,0 +1,19 @@
+{
+  "name": "mf-core",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/mf-core/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/mf-core",
+        "main": "libs/mf-core/src/index.ts",
+        "tsConfig": "libs/mf-core/tsconfig.lib.json",
+        "assets": ["libs/mf-core/*.md"]
+      }
+    }
+  }
+}
