@@ -1,8 +1,8 @@
 {
-  "name": "host-shell",
+  "name": "remote-vanilla",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "sourceRoot": "apps/host-shell/src",
+  "sourceRoot": "apps/remote-vanilla/src",
   "tags": [],
   "targets": {}
 }
