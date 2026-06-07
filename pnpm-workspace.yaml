@@ -1,8 +1,15 @@
-minimumReleaseAge: 4320
-trustPolicy: no-downgrade
-blockExoticSubdeps: true
-
 packages:
   - apps/*
   - libs/*
   - packages/*
+
+blockExoticSubdeps: true
+
+ignoredBuiltDependencies:
+  - '@parcel/watcher'
+  - '@swc/core'
+  - nx
+
+minimumReleaseAge: 4320
+
+trustPolicy: no-downgrade
